@@ -105,9 +105,15 @@ nav div .nav-link {
     margin-bottom: 100px;
 }
 
+#heroSelengkapnya {
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 
-/* 
-@media only screen and (max-width: 576px) {
+
+
+/* @media only screen and (max-width: 576px) {
     .heroFont {
         font-size: 10px;
     }

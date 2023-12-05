@@ -29,5 +29,11 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/selengkapnya', function () {
+    return view('selengkapnya');
+});
+
+
+
 
 
