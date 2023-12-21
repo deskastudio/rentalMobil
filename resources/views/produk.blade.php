@@ -275,15 +275,15 @@
           {{-- Card Mobil End --}}
 
           {{-- Footer Start --}}
-          <section id="footerKontak">
+          <section id="footer">
             <div class="container">
-                <div class="row align-items-center" style="color:white;">
+                <div class="row align-items-center col-md-12 col-sm-12" style="color:white;">
                   <h2 class="col mt-4"><span style="color:#A80743; font-weight: bold;">DigiCar</span>Point</h2>
                   <h5 class="col mt-4">Terus Ikuti Perkembangan</h5>
                   <h4 class="col mt-4"><span style="color:#A80743; font-weight: bold;">DigiCar</span>Point</h4>
                 </div>
 
-                <div class="row" style="color:white;">
+                <div class="row col-md-12 col-sm-12" style="color:white;">
                   <p class="col mt-4">DigiCarPoint merupakan usaha serta wadah yang menyediakan jasa untuk merental mobil dengan misi untuk mempermudah pengguna mencari rental mobil yang dibutuhkan</p>
                   <p class="col mt-4">Bergabunglah dengan mailling list kami untuk terus mengikuti perkembangan info-info menarik dari kami</p>
                   <div class="col mt-4">
@@ -294,7 +294,6 @@
                     <a href="/Bantuan" class="me-5" style="text-decoration: none; color:#fff;">Bantuan</a>
                     <a href="/privacy" class="" style="text-decoration: none; color:#fff;">Privacy</a>
                   </div>
-                </div>
                 </div>
 
                 <div class="row" style="color:white;">
@@ -316,7 +315,6 @@
                   </div>
                   <div class="text-center" style="margin-top: 40px;">
                     <h5 style="font-size:15px;">Copyright © 2023  <span class="fw-bold" style="color:#A80743;">DigiCar</span>Point</h5>
-
                   </div>
           </section>
           {{-- Footer End --}}

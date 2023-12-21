@@ -45,12 +45,36 @@
                 <div class="row" style="margin-top:100px; z-index: 3;">
                     <h1 class="heroFont fw-bold col-lg-7 col-sm-12 col-md-12" style="color: #5C5656; line-height: 65px; font-size: 50px;"> Kami Hadir Untuk <span style="color: #A80743;">Memenuhi Kebutuhan Perjalanan Anda</span></h1>
                     <h4 class="fw-normal" style="margin-top: 30px;">DigiCarPoint telah hadir sejak 2018</h4>
-                    <div class="d-flex border border-2 border-dark p-2 col-lg-3 col-sm-6 col-md-6" style="justify-content: center; margin-top: 70px; border-radius: 20px;">
+                    <div class="d-flex border border-2 border-dark p-2 col-lg-6 col-sm-6 col-md-6" style="justify-content: center; margin-top: 70px; border-radius: 20px; background-color: #FFFF;">
                         <div class="border border-2 shadow p-1" style="color:white; background-color:#A80743; border-radius: 20px;">
                             <div class="mt-3 mb-3">
                                 <h2 class="" style="text-align: center;">10K +</h2>
                                 <p class="" style="text-align: center;">Pengguna yang mempercayakan Rental Kepada Kami</p>
                             </div>
+                        </div>
+                        <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <h5 class="p-3 mx-auto w-50 text-center align-item-center mt-4" style="background-color: #FEE3E0; border-radius: 15px;">Lihat Produk</h5>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="{{asset('images/gambarMobil2.png')}}" class="d-block mx-auto" alt="..." style="max-width: 200px;">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="{{asset('images/gambarMobil3.png')}}" class="d-block mx-auto" alt="..." style="max-width: 200px;">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="{{asset('images/gambarMobil1.png')}}" class="d-block mx-auto" alt="..." style="max-width: 200px;">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
                         </div>
                     </div>
                 </div>
@@ -320,6 +344,69 @@
                 <div class="col-9">
                   <h1 class="p-5" style="color: white;">Apa Kata Customer Kami</h1>
                   <div class="list"></div>
+
+                  {{-- review customer --}}
+                  <div style="margin-top: 100px;" class="row row-cols-1 row-cols-md-2 mx-3">
+                    <div class="col">
+                      <div class="card mb-3" style="width: 450px; height: 120px; background-color: #FFF8F7; border-radius: 15px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="{{asset('images/customerSatu.svg')}}" class="img-fluid p-3" alt="..." style="max-width: 110px;">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text">Siap makasih puas dengan pelayanannya. Akan saya rekomendasikan ke orang lain.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card" style="width: 450px; height: 120px; background-color: #FFF8F7; border-radius: 15px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="{{asset('images/customerDua.svg')}}" class="img-fluid p-3" alt="..." style="max-width: 110px;">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text">Siap makasih puas dengan pelayanannya. Akan saya rekomendasikan ke orang lain.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card" style="width: 450px; height: 120px; background-color: #FFF8F7; border-radius: 15px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="{{asset('images/customerSatu.svg')}}" class="img-fluid p-3" alt="..." style="max-width: 110px;">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text">Siap makasih puas dengan pelayanannya. Akan saya rekomendasikan ke orang lain.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card" style="width: 450px; height: 120px; background-color: #FFF8F7; border-radius: 15px;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <img src="{{asset('images/customerDua.svg')}}" class="img-fluid p-3" alt="..." style="max-width: 110px;">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <p class="card-text">Siap makasih puas dengan pelayanannya. Akan saya rekomendasikan ke orang lain.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      
                 </div>
                 <div class="col-3 position-absolute top-0 end-0 bottom-0">
                   <img src="{{asset('images/mobilCustomer.jpg')}}" alt="" class="w-100 h-100" style="border-bottom-right-radius: 200px;">
